@@ -1,0 +1,13 @@
+{
+	"name": "koan-ical-rewrite",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"start": "vercel dev",
+		"lint": "biome check ."
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.4.1",
+		"vercel": "^32.6.1"
+	}
+}
